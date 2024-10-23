@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  width: 60%; /* Set the width to 60% of the page */
+}
+
+.card {
+  flex: 1 1 auto; /* Allow flexibility in card sizing */
+  min-width: 150px; /* Minimum width for each card */
+  margin: 10px; /* Optional spacing between cards */
+}
