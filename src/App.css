@@ -3,12 +3,13 @@ h1 {
   font-size: 2.5em; /* Size of the heading */
   color: #282c34; /* Dark color for contrast */
   margin: 20px 0; /* Margin for spacing above and below */
+  text-decoration: underline;
 }
 
 .subHeading {
   text-align: center; /* Center the subheading */
   font-size: 2.5em; /* Slightly smaller than the main heading */
-  color: #61dafb; /* Lighter color for contrast */
+  color: #07c9ff; /* Lighter color for contrast */
   margin: 10px 0; /* Margin for spacing */
   font-weight: 400; /* Normal weight for a softer look */
 }

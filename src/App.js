@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <h1>Telugu Alphabets</h1>
-      <h1 className='subHeading'>Achulu  </h1>
+      <h1 className='subHeading'>ACHULU:</h1>
       <div className="card-container">
         {letters.map((letter) => (
           <div
