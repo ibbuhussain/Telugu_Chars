@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-
 const letters = [
   { char: 'A', img: '/Telugu_Char/a.png', newImg: '/Telugu_Pro/a.png' },
   { char: 'Aa', img: '/Telugu_Char/aa.png', newImg: '/Telugu_Pro/aa.png' },
@@ -20,7 +19,6 @@ const letters = [
   { char: 'aaha', img: '/Telugu_Char/aaha.png', newImg: '/Telugu_Pro/aaha.png' },
   // Add more letters as needed
 ];
-
 function App() {
   const [selectedLetter, setSelectedLetter] = useState(null);
   const [showNewImage, setShowNewImage] = useState(false);
@@ -35,10 +33,10 @@ function App() {
       setShowNewImage(true);
     }
   };
-
   return (
     <div className="App">
       <h1>Telugu Alphabets</h1>
+      <h1 className='type'>Achulu  </h1>
       <div className="card-container">
         {letters.map((letter) => (
           <div
@@ -57,5 +55,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

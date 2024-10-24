@@ -1,50 +1,23 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.card-container{
+.card-container {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping */
   width: 60%; /* Set the width to 60% of the page */
+  justify-content: center; /* Center the cards in the container */
+  margin: 20px auto; /* Center the container with auto margins */
 }
 
 .card {
   flex: 1 1 auto; /* Allow flexibility in card sizing */
   min-width: 150px; /* Minimum width for each card */
   margin: 10px; /* Optional spacing between cards */
+  
+  background-color: rgba(238,238,238,255); /* Background color for the card */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
 }
